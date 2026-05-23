@@ -104,12 +104,6 @@ These instructions assume you have the repository checked out locally.
 
 5. Work through the notebook cells to reproduce the exploratory figures. Visualizations will render inline.
 
-## Recommended next steps (optional)
-
-- Parameterize the notebook file paths or add a small helper script to load data from `data/` to make the project more portable.
-- Save key figures to an `outputs/` directory for use in reports.
-- Add a simple unit test or smoke test to validate that the core data files can be loaded and that key columns exist.
-
 ## Repository / folder structure
 
 Suggested layout for a cleaned project:
@@ -129,8 +123,3 @@ Suggested layout for a cleaned project:
 └─ .gitignore
 ```
 
-## Credits / Author
-
-This documentation was created to accompany the `creditEDA.ipynb` exploratory notebook found in this repository. The notebook uses a Home-Credit-style public dataset (commonly distributed for credit risk challenges). If you are the original notebook author, add your name and contact details here for attribution.
-
-If you reuse data or code from other sources, please cite those sources in the notebook and this README.
